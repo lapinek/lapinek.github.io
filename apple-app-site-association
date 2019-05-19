@@ -1,4 +1,9 @@
 {
+    "activitycontinuation": {
+        "apps": [
+            "JV6EC9KSN3.com.forgerock.iOS-AppAuth-Basic"
+        ]
+    },
     "applinks": {
        "apps": [],
        "details": [
