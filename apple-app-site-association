@@ -9,7 +9,7 @@
                 ]
             },
             {
-                "appID": "JV6EC9KSN3.com.forgerock.ASWebAuthenticationSession",
+                "appID": "JV6EC9KSN3.com.forgerock.ASWebAuthenticationSession-ul",
                 "paths": [
                     "/redirect/forgerock/aswebauthenticationsession"
                 ]
