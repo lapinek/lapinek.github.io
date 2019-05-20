@@ -1,16 +1,17 @@
 {
-    "activitycontinuation": {
-        "apps": [
-            "JV6EC9KSN3.com.forgerock.iOS-AppAuth-Basic"
-        ]
-    },
     "applinks": {
        "apps": [],
        "details": [
             {
                 "appID": "JV6EC9KSN3.com.forgerock.iOS-AppAuth-Basic",
                 "paths": [
-                    "/redirect"
+                    "/redirect/forgerock/ios-appauth-basic"
+                ]
+            },
+            {
+                "appID": "JV6EC9KSN3.com.forgerock.ASWebAuthenticationSession",
+                "paths": [
+                    "/redirect/forgerock/aswebauthenticationsession"
                 ]
             }
        ]
