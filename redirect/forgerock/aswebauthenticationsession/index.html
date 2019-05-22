@@ -1,5 +1,13 @@
 <p>
-    <form method="GET" action="https://accounts.google.com/o/oauth2/v2/auth?nonce=s&response_type=code&code_challenge_method=S256&scope=openid%20profile&code_challenge=S&redirect_uri=https://lapinek.github.io/redirect/forgerock/aswebauthenticationsession&client_id=322388948991-klooos8dqvqvvk7qrugqsfmgiahr516o.apps.googleusercontent.com&state=E">
+    <form method="GET" action="https://accounts.google.com/o/oauth2/v2/auth">
+        <input name="nonce" value="s">
+        <input name="response_type" value="code">
+        <input name="code_challenge_method" value="S256">
+        <input name="scope" value="openid profile">
+        <input name="code_challenge" value="S">
+        <input name="redirect_uri" value="https://lapinek.github.io/redirect/forgerock/aswebauthenticationsession">
+        <input name="client_id" value="322388948991-klooos8dqvqvvk7qrugqsfmgiahr516o.apps.googleusercontent.com">
+        <input name="state" value="E">
         <button type="submit">Submit</button>
     </form>
 </p>
