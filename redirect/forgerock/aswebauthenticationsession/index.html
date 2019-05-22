@@ -1,5 +1,5 @@
 <p>
-    <form method="GET" action="https://accounts.google.com/o/oauth2/v2/auth">
+    <form method="GET" action="https://accounts.google.com/o/oauth2/v2/auth" id="form">
         <input name="nonce" value="OkFr1Yst4QihKvCr0c8gM2bxbDJ1EH9a7bGUE_A8Ois">
         <input name="response_type" value="code">
         <input name="code_challenge_method" value="S256">
@@ -18,4 +18,7 @@
 </p>
 <p>
     <a href="https://accounts.google.com/o/oauth2/v2/auth?nonce=OkFr1Yst4QihKvCr0c8gM2bxbDJ1EH9a7bGUE_A8Ois&response_type=code&code_challenge_method=S256&scope=openid%20profile&code_challenge=SxRdd4fbJ1_XMqpbgASNspQzJlJ_oVnKDEY4PnlRFUM&redirect_uri=https://lapinek.github.io/redirect/forgerock/aswebauthenticationsession&client_id=322388948991-klooos8dqvqvvk7qrugqsfmgiahr516o.apps.googleusercontent.com&state=ZnFUwMqkSUVTywhoDvxL2BtIFsJEUGWNIpjhcf5fNzE">Go</a>
+</p>
+<p>
+    <button onclick="document.getElementById('form').submit()">JS Submit</button>
 </p>
