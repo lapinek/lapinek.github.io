@@ -5,3 +5,38 @@
         document.getElementById('url').innerHTML = location.href
     }
 </script>
+
+<p>
+    <form method="GET" action="https://accounts.google.com/o/oauth2/v2/auth" id="form-get">
+        <br><input size="64"name="nonce" value="OkFr1Yst4QihKvCr0c8gM2bxbDJ1EH9a7bGUE_A8Ois">
+        <br><input size="64"name="response_type" value="code">
+        <br><input size="64"name="code_challenge_method" value="S256">
+        <br><input size="64"name="scope" value="openid profile">
+        <br><input size="64"name="code_challenge" value="SxRdd4fbJ1_XMqpbgASNspQzJlJ_oVnKDEY4PnlRFUM">
+        <br><input size="64"name="redirect_uri" value="https://lapinek.github.io/redirect/forgerock/aswebauthenticationsession">
+        <br><input size="64"name="client_id" value="322388948991-klooos8dqvqvvk7qrugqsfmgiahr516o.apps.googleusercontent.com">
+        <br><input size="64"name="state" value="ZnFUwMqkSUVTywhoDvxL2BtIFsJEUGWNIpjhcf5fNzE">
+        <br><button type="submit">Submit</button>
+    </form>
+</p>
+<p>
+    <form method="POST" action="https://accounts.google.com/o/oauth2/v2/auth" id="form-post">
+        <br><input size="64"name="nonce" value="OkFr1Yst4QihKvCr0c8gM2bxbDJ1EH9a7bGUE_A8Ois">
+        <br><input size="64"name="response_type" value="code">
+        <br><input size="64"name="code_challenge_method" value="S256">
+        <br><input size="64"name="scope" value="openid profile">
+        <br><input size="64"name="code_challenge" value="SxRdd4fbJ1_XMqpbgASNspQzJlJ_oVnKDEY4PnlRFUM">
+        <br><input size="64"name="redirect_uri" value="https://lapinek.github.io/redirect/forgerock/aswebauthenticationsession">
+        <br><input size="64"name="client_id" value="322388948991-klooos8dqvqvvk7qrugqsfmgiahr516o.apps.googleusercontent.com">
+        <br><input size="64"name="state" value="ZnFUwMqkSUVTywhoDvxL2BtIFsJEUGWNIpjhcf5fNzE">
+        <br><button type="submit">Submit</button>
+    </form>
+</p>
+<p>
+    <a href="https://accounts.google.com/o/oauth2/v2/auth?nonce=OkFr1Yst4QihKvCr0c8gM2bxbDJ1EH9a7bGUE_A8Ois&response_type=code&code_challenge_method=S256&scope=openid%20profile&code_challenge=SxRdd4fbJ1_XMqpbgASNspQzJlJ_oVnKDEY4PnlRFUM&redirect_uri=https://lapinek.github.io/redirect/forgerock/aswebauthenticationsession&client_id=322388948991-klooos8dqvqvvk7qrugqsfmgiahr516o.apps.googleusercontent.com&state=ZnFUwMqkSUVTywhoDvxL2BtIFsJEUGWNIpjhcf5fNzE">Go</a>
+</p>
+<p>
+    <button onclick="document.getElementById('form-get').submit()">JS Submit GET</button>
+</p><p>
+    <button onclick="document.getElementById('form-post').submit()">JS Submit POST</button>
+</p>
