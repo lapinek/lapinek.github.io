@@ -2,6 +2,8 @@
 
 <script>
     window.onload = function() {
-        document.getElementById('url').innerHTML = '<a href="' + location.href + '">' + location.href + '</a>'
+        var url = location.href.replace('https://lapinek.github.io/redirect/forgerock/oauth-2-universal-links', 'com.forgeops.ios-appauth-basic:/oauth2/forgeops/redirect')
+
+        document.getElementById('url').innerHTML = '<a href="' + url + '">' + url + '</a>'
     }
 </script>
