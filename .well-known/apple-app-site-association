@@ -1,0 +1,25 @@
+{
+    "applinks": {
+       "apps": [],
+       "details": [
+            {
+                "appID": "JV6EC9KSN3.com.forgerock.iOS-AppAuth-Basic",
+                "paths": [
+                    "/redirect/forgerock/ios-appauth-basic"
+                ]
+            },
+            {
+                "appID": "JV6EC9KSN3.com.forgerock.ASWebAuthenticationSession-ul",
+                "paths": [
+                    "/redirect/forgerock/aswebauthenticationsession"
+                ]
+            },
+            {
+                "appID": "JV6EC9KSN3.com.forgerock.oauth-2-universal-links",
+                "paths": [
+                    "/redirect/forgerock/oauth-2-universal-links"
+                ]
+            }
+       ]
+    }
+}
