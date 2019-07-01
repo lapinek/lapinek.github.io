@@ -1,0 +1,9 @@
+<p id="url"></p>
+
+<script>
+    window.onload = function() {
+        var url = location.href.replace('https://lapinek.github.io/oauth2redirect/ios-appauth-basic', 'com.forgeops.ios-appauth-basic:/oauth2/forgeops/redirect')
+
+        document.getElementById('url').innerHTML = '<a href="' + url + '">' + url + '</a>'
+    }
+</script>
